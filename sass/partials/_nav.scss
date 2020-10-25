@@ -1,0 +1,22 @@
+.navbar {
+    background: getColour(secondary);
+    text-transform: uppercase;
+
+    .navbar-brand {
+        font-size: 36px;
+    }
+
+    .nav-link{
+        color: #333333 !important;
+    }
+    .active{
+        color: getColour(primary) !important;
+    }
+
+    .navbar-toggler{
+        border: none;
+    }
+    .navbar-toggler-icon{
+        color: #333333 !important;
+    }
+}

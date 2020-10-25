@@ -1,0 +1,17 @@
+.card {
+    padding-bottom: 100%;
+    background-color: getColour(secondary);
+    border-color: getColour(secondary);
+    margin-bottom: 25px;
+    border-width: 3px;
+    border-radius: 15px;
+}
+
+.special {
+    background-color: #fff;
+    border-color: getColour(primary);
+}
+.super {
+    background-color: getColour(primary);
+    border-color: #fff;
+}
